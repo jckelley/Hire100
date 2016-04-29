@@ -8,7 +8,11 @@
 import scrapy
 
 
-class HirestatsItem(scrapy.Item):
+class FortuneCompanyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    location = scrapy.Field()
+    stock = scrapy.Field()
+    logo = scrapy.Field()
+    industry = scrapy.Field()
