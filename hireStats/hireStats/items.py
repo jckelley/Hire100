@@ -12,6 +12,7 @@ class FortuneCompanyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     name = scrapy.Field()
+    rank = scrapy.Field()
     location = scrapy.Field()
     stock = scrapy.Field()
     logo = scrapy.Field()
